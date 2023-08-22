@@ -1,0 +1,382 @@
+tree: Events
+dbcache: "2018_UL_MConly_all_DistributedCERN.db"
+eras:
+  '2018':
+    luminosity: 59830.00
+samples:
+  SingleMuon_UL2018A_UL18:
+    db: das:/SingleMuon/Run2018A-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2018'
+    group: data
+    #run_range: [315252, 316995]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions18/13TeV/Legacy_2018/Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt
+  SingleMuon_UL2018B_UL18:
+    db: das:/SingleMuon/Run2018B-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2018'
+    group: data
+    #run_range: [317080, 319310]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions18/13TeV/Legacy_2018/Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt
+  SingleMuon_UL2018C_UL18:
+    db: das:/SingleMuon/Run2018C-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2018'
+    group: data
+    #run_range: [319337, 320065]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions18/13TeV/Legacy_2018/Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt
+  SingleMuon_UL2018D_UL18:
+    db: das:/SingleMuon/Run2018D-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2018'
+    group: data
+    #run_range: [320673, 325175]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions18/13TeV/Legacy_2018/Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt
+  HH_bbmumu:
+    cross-section: 0.00000782
+    db: das:/HIG-RunIISummer20UL18wmLHEGEN_HH_bbmumu_13TeV-powheg_500k/bdanzi-NANOAOD-00000000000000000000000000000000/USER instance=prod/phys03
+    era: '2018'
+    group: signal
+    generated-events: genEventSumw
+    split: 10
+    line-width: 2
+    line-color: "#CC00CC" 
+  DYJetsToLL_M-10to50_TuneCP5_13TeV-madgraphMLM-pythia8:
+    cross-section: 18610
+    db: das:/DYJetsToLL_M-10to50_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: DY
+    split: 10
+  DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    cross-section: 4757.0
+    db: das:/DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: DY
+    split: 10
+  DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    cross-section: 859.589402
+    db: das:/DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: DY
+    split: 10
+  DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    cross-section: 361.4
+    db: das:/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: DY
+    split: 10
+## ZZ4l 125
+  ###GluGluHToZZTo4L_M125_13TeV_powheg2_JHUgenV6_pythia8_ext8:
+  ###  cross-section: 0.01212
+  ###  db: das:/GluGluHToZZTo4L_M125_TuneCP5_13TeV_powheg2_JHUGenV7011_pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+  ###  era: '2018'
+  ###  generated-events: genEventSumw
+  ###  group: GluGluHToZZTo4L_M125_13TeV_powheg2_JHUgenV6_pythia8
+  ###  split: 4
+  GluGluHToZZTo4L_M125_13TeV_powheg2_JHUgenV6_pythia8_ext9:
+    cross-section: 0.01212
+    db: das:/GluGluHToZZTo4L_M125_TuneCP5_13TeV_powheg2_minloHJJ_JHUGenV7011_pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: GluGluHToZZTo4L_M125_13TeV_powheg2_JHUgenV6_pythia8
+    split: 4
+## ggContZZ
+  GluGluToContinToZZTo2e2mu_13TeV:
+    cross-section: 3.292
+    db: das:/GluGluToContinToZZTo2e2mu_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: GluGluToContinToZZ
+    split: 4
+  GluGluToContinToZZTo2e2tau_13TeV:
+    cross-section: 0.00319
+    db: das:/GluGluToContinToZZTo2e2tau_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: GluGluToContinToZZ
+    split: 4
+  GluGluToContinToZZTo2mu2tau_13TeV:
+    cross-section: 0.00319
+    db: das:/GluGluToContinToZZTo2mu2tau_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: GluGluToContinToZZ
+    split: 4
+  GluGluToContinToZZTo4e_13TeV:
+    cross-section: 0.00159
+    db: das:/GluGluToContinToZZTo4e_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: GluGluToContinToZZ
+    split: 4
+  GluGluToContinToZZTo4mu_13TeV:
+    cross-section: 0.00159
+    db: das:/GluGluToContinToZZTo4mu_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: GluGluToContinToZZ
+    split: 4
+  GluGluToContinToZZTo4tau_13TeV:
+    cross-section: 0.00159
+    db: das:/GluGluToContinToZZTo4tau_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: GluGluToContinToZZ
+    split: 4
+## SingleTop
+  SingleT_atW:
+    cross-section: 35.85
+    db: das:/ST_tW_top_5f_NoFullyHadronicDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: SingleT
+    split: 5
+  ST_s-channel_4f_hadronicDecays:
+    cross-section: 35.85
+    db: das:/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: SingleT
+    split: 10
+  ST_s-channel_4f_leptonDecays:
+    cross-section: 35.85
+    db: das:/ST_s-channel_4f_leptonDecays_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: SingleT
+    split: 5
+  TTJets:
+    cross-section: 831.76
+    db: das:/TTJets_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: TTJets
+    split: 60
+  TTWJetslnu:
+    cross-section: 0.2043
+    db: das:/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: TTW
+    split: 10
+  TTZJets2l2nu:
+    cross-section: 0.2529
+    db: das:/TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: TTZ
+    split: 10
+  WGlnuG:
+    cross-section: 192.3
+    db: das:/WGToLNuG_01J_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VGamma
+    split: 4
+  ZGToLLG:
+    cross-section: 54.48
+    db: das:/ZGToLLG_01J_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VGamma
+    split: 10
+  WJetsToLNu_0J:
+    cross-section: 53330.0
+    db: das:/WJetsToLNu_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: WJets
+    split: 10
+  WJetsToLNu_1J:
+    cross-section: 8875.0
+    db: das:/WJetsToLNu_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: WJets
+    split: 10
+  WJetsToLNu_2J:
+    cross-section: 3338.0
+    db: das:/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: WJets
+    split: 10
+  WWW:
+    cross-section: 0.2086
+    db: das:/WWW_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VVV
+    split: 4
+  WWW_ext1:
+    cross-section: 0.2086
+    db: das:/WWW_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VVV
+    split: 4
+  WWZJetsTo4L2Nu:
+    cross-section: 0.1651
+    db: das:/WWZJetsTo4L2Nu_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VVV
+    split: 4
+  WWZ:
+    cross-section: 0.1651
+    db: das:/WWZ_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VVV
+    split: 4
+  WWZ_ext1:
+    cross-section: 0.1651
+    db: das:/WWZ_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VVV
+    split: 4
+  WZ3lnu:
+    cross-section: 4.42965
+    db: das:/WZTo3LNu_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: WZ3lnu
+    split: 4
+  WZZ:
+    cross-section: 0.05565
+    db: das:/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VVV
+    split: 4
+  WZZ_ext1:
+    cross-section: 0.05565
+    db: das:/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VVV
+    split: 4
+  ZHToTauTau_M125_CP5_13TeV-powheg-pythia8:
+    cross-section: 0.07762
+    db: das:/ZHToTauTau_M125_CP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    #type: signal
+    generated-events: genEventSumw
+    group: ZHToTauTau_M125
+    line-color: '#fe8f40'
+    line-type: 1
+    split: 4
+  # ZHToTauTau_M125_CP5_13TeV-powheg-pythia8_ext1:
+  #   cross-section: 0.07762
+  #   db: das:/ZHToTauTau_M125_CP5_13TeV-powheg-pythia8_ext1/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+  #   era: '2018'
+  #   type: signal
+  #   generated-events: genEventSumw
+  #   group: ZHToTauTau_M125
+  #   line-color: '#fe8f40'
+  #   line-type: 1
+  #   split: 4
+  WW2l2nu:
+    cross-section: 12.178
+    db: das:/WWTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VV
+    split: 4
+  ZZ2l2nu:
+    cross-section: 0.564
+    db: das:/ZZTo2L2Nu_TuneCP5_13TeV_powheg_pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VV
+    split: 4
+  ZZTo4L_13TeV_powheg_pythia8:
+    cross-section: 1.256
+    db: das:/ZZTo4L_TuneCP5_13TeV_powheg_pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: ZZTo4L
+    split: 4
+  ZZZ:
+    cross-section: 0.01398
+    db: das:/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VVV
+    split: 4
+  ZZZ_ext1:
+    cross-section: 0.01398
+    db: das:/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM
+    era: '2018'
+    generated-events: genEventSumw
+    group: VVV
+    split: 4
+plotIt:
+  configuration:
+    width: 800
+    height: 600
+    luminosity-label: '%1$.2f fb^{-1} (13 TeV)'
+    experiment: CMS
+    extra-label: Work in progress
+    luminosity-error: 0.027
+    show-overflow: true
+    error-fill-style: 3154
+    error-fill-color: "#ee556270"
+    ratio-fit-error-fill-style: 1001
+    ratio-fit-error-fill-color: "#aa556270"
+    ratio-fit-line-color: "#0B486B"
+  legend:
+    position: [0.7, 0.6, 0.91, 0.91]
+  groups:
+    data:
+      legend: Data
+    signal:
+      legend: Signal
+      fill-color: "#FF0000"
+    DY:
+      legend: DY
+      fill-color: "#EDC951"
+    VVV:
+      legend: VVV
+      fill-color: "#51edc9"
+    VV:
+      legend: VV
+      fill-color: "#5197ed"
+    VGamma:
+      legend: VGamma
+      fill-color: "#5197ed"
+    SingleT:
+      legend: SingleT
+      fill-color: "#51ed6b"
+    TTJets:
+      legend: TTJets
+      fill-color: "#8ded51"
+    TTW:
+      legend: TTW
+      fill-color: "#5eb329"
+    TTZ:
+      legend: TTZ
+      fill-color: "#90ab0a"
+    ZZTo4L:
+      legend: ZZTo4L
+      fill-color: "#eb5234"
+    GluGluToContinToZZ:
+      legend: GluGluToContinToZZ
+      fill-color: "#ede551"
+    WJets:
+      legend: WJets
+      fill-color: "#ed6351"
+  plotdefaults:
+    no-data: False
+    y-axis: Events
+    log-y: both
+    y-axis-show-zero: True
+    save-extensions: [pdf, png]
+    show-ratio: True
+    sort-by-yields: True
+    #rebins: 4
