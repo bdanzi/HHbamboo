@@ -36,6 +36,11 @@ export X509_USER_PROXY=$HOME/private/gridproxy/x509
 Then plot various control regions via the following command line using batch (you can pass `--maxFiles 1` to use only 1 file from each sample for a quick test):
 
 ```bash
+bambooRun -m  BaseNanoHHtobbmumu.py:BaseNanoHHtobbmumu samples_2018UL_all.yml --envConfig=../cern.ini -o test --distributed=driver
+```
+To merge all the ouput files and produce plots:
+
+```bash
 bambooRun -m  BaseNanoHHtobbmumu.py:BaseNanoHHtobbmumu samples_2018UL_all.yml --envConfig=../cern.ini -o test --distributed=finalize
 ```
 Instead of passing everytime `--envConfig config/cern.ini`, you can copy the content of that file to `~/.config/bamboorc`.
