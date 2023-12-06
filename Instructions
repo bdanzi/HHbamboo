@@ -1,0 +1,16 @@
+bambooRun -m  BaseNanoHHtobbmumu_trialDNN.py:BaseNanoHHtobbmumu samples_2018UL_all.yml --envConfig=../cern.ini -o test_15 --distributed=driver
+
+1. It will fail, then do condor_submit cmd, it will run everything
+
+condor_submit -spool test_14/batch/input/condor.cmd
+
+2. Then I check manually which jobs fail and resubmit them
+bambooRun -m  BaseNanoHHtobbmumu_trialDNN.py:BaseNanoHHtobbmumu samples_2018UL_all.yml --envConfig=../cern.ini -o test_15 --distributed=finalize
+
+3. Se un job fallisce, vedi il corrispondente job ID e usa condor_transfer_data 1196271.0 
+condor_rm  -constraint '!(ClusterID == 1196562 && ProcID == 0) && !(ClusterID == 1196565 && ProcID == 0) && !(ClusterID == 1196567 && ProcID == 0)'
+
+4. Crea lista di file su recas e rinomali con output_ e copia list e file su recas
+python CreateListOutputsFiles.py
+
+5. Crea keys and tags da usare in runFormatROOTs_2018.sh

@@ -1,0 +1,10 @@
+pileupCalc.py -i Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt --inputLumiJSON pileup_latest_2016UL.txt --calcMode true --minBiasXsec 69200 --maxPileupBin 100 --numPileupBins 100 DataPileupHistogram2016UL_69200_100bins.root
+pileupCalc.py -i Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt --inputLumiJSON pileup_latest_2016UL.txt --calcMode true --minBiasXsec 66017 --maxPileupBin 100 --numPileupBins 100 DataPileupHistogram2016UL_66017_100bins.root
+pileupCalc.py -i Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt --inputLumiJSON pileup_latest_2016UL.txt --calcMode true --minBiasXsec 72383 --maxPileupBin 100 --numPileupBins 100 DataPileupHistogram2016UL_72383_100bins.root
+pileupCalc.py -i Cert_294927-306462_13TeV_UL2017_Collisions17_GoldenJSON.txt --inputLumiJSON pileup_latest_2017UL.txt --calcMode true --minBiasXsec 69200 --maxPileupBin 100 --numPileupBins 100 DataPileupHistogram2017UL_69200_100bins.root
+pileupCalc.py -i Cert_294927-306462_13TeV_UL2017_Collisions17_GoldenJSON.txt --inputLumiJSON pileup_latest_2017UL.txt --calcMode true --minBiasXsec 66017 --maxPileupBin 100 --numPileupBins 100 DataPileupHistogram2017UL_66017_100bins.root
+pileupCalc.py -i Cert_294927-306462_13TeV_UL2017_Collisions17_GoldenJSON.txt --inputLumiJSON pileup_latest_2017UL.txt --calcMode true --minBiasXsec 72383 --maxPileupBin 100 --numPileupBins 100 DataPileupHistogram2017UL_72383_100bins.root
+pileupCalc.py -i Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt --inputLumiJSON pileup_latest_2018UL.txt --calcMode true --minBiasXsec 69200 --maxPileupBin 100 --numPileupBins 100 DataPileupHistogram2018UL_69200_100bins.root
+pileupCalc.py -i Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt --inputLumiJSON pileup_latest_2018UL.txt --calcMode true --minBiasXsec 66017 --maxPileupBin 100 --numPileupBins 100 DataPileupHistogram2018UL_66017_100bins.root
+pileupCalc.py -i Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt --inputLumiJSON pileup_latest_2018UL.txt --calcMode true --minBiasXsec 72383 --maxPileupBin 100 --numPileupBins 100 DataPileupHistogram2018UL_72383_100bins.root
+

@@ -1,0 +1,1012 @@
+tree: Events
+dbcache: "2016_UL_MConly_all.db"
+eras:
+  '2016':
+    luminosity: 35900.00 #pb
+samples: #MIssing doubleEgamma and SingleElectron also the ranges
+  ##################
+  # DoubleEGamma   #
+  ##################
+  DoubleEGamma_2016B_UL16:
+    db: das:/DoubleEG/Run2016B-ver1_HIPM_UL2016_MiniAODv2_JMENanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [272007, 275376]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleEGamma_2016C_UL16:
+    db: das:/DoubleEG/Run2016C-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [299368, 302029]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleEGamma_2016D_UL16:
+    db: das:/DoubleEG/Run2016D-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [302030, 303434]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleEGamma_2016E_UL16:
+    db: das:/DoubleEG/Run2016E-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [303824, 304826]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleEGamma_2016F_UL16: #G and H? no
+    db: das:/DoubleEG/Run2016F-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [305040, 306462]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  ##################
+  # SingleElectron NO #
+  ##################
+  SingleElectron_2016B_UL16:
+    db: das:/SingleElectron/Run2016B-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [272007, 275376]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  SingleElectron_2016C_UL16:
+    db: das:/SingleElectron/Run2016C-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [299368, 302029]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  SingleElectron_2016D_UL16:
+    db: das:/SingleElectron/Run2016D-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [302030, 303434]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  SingleElectron_2016E_UL16:
+    db: das:/SingleElectron/Run2016E-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [303824, 304826]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  SingleElectron_2016F_UL16: # G e H?
+    db: das:/SingleElectron/Run2016F-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [305040, 306462]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  ##################
+  # MuonEG     OK  #
+  ##################
+  MuonEG_2016B_UL16:
+    db: das:/MuonEG/Run2016B-ver1_HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [272007, 275376]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  MuonEG_2016B_UL16_ext:
+    db: das:/MuonEG/Run2016B-ver2_HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [272007, 275376]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  MuonEG_2016C_UL16:
+    db: das:/MuonEG/Run2016C-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [275657, 276283]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  MuonEG_2016D_UL16:
+    db: das:/MuonEG/Run2016D-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [276315, 276811]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  MuonEG_2016E_UL16:
+    db: das:/MuonEG/Run2016E-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [276831, 277420]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  MuonEG_2016F_UL16:
+    db: das:/MuonEG/Run2016F-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [277772, 278808]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  MuonEG_2016F_UL16_ext:
+    db: das:/MuonEG/Run2016F-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [277772, 278808]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  MuonEG_2016G_UL16:
+    db: das:/MuonEG/Run2016G-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [278820, 280385]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  MuonEG_2016H_UL16:
+    db: das:/MuonEG/Run2016H-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [280919, 284044]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  ##################
+  # DoubleMuon  OK #
+  ##################
+  DoubleMuon_2016B_UL16:
+    db: das:/DoubleMuon/Run2016B-ver1_HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [272007, 275376]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleMuon_2016B_UL16_ext:
+    db: das:/DoubleMuon/Run2016B-ver2_HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [272007, 275376]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleMuon_2016C_UL16:
+    db: das:/DoubleMuon/Run2016C-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [275657, 276283]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleMuon_2016D_UL16:
+    db: das:/DoubleMuon/Run2016D-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [276315, 276811]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleMuon_2016E_UL16:
+    db: das:/DoubleMuon/Run2016E-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [276831, 277420]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleMuon_2016F_UL16:
+    db: das:/DoubleMuon/Run2016F-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [277772, 278808]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleMuon_2016F_UL16_ext:
+    db: das:/DoubleMuon/Run2016F-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [277772, 278808]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleMuon_2016G_UL16:
+    db: das:/DoubleMuon/Run2016G-UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [278820, 280385]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  DoubleMuon_2016H_UL16:
+    db: das:/DoubleMuon/Run2016H-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [280919, 284044]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  ##################
+  # SingleMuon  OK #
+  ##################
+  SingleMuon_2016B_UL16:
+    db: das:/SingleMuon/Run2016B-ver1_HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [272007, 275376]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+   SingleMuon_2016B_UL16_ext:
+    db: das:/SingleMuon/Run2016B-ver2_HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [272007, 275376]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  SingleMuon_2016C_UL16:
+    db: das:/SingleMuon/Run2016C-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [275657, 276283]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  SingleMuon_2016D_UL16:
+    db: das:/SingleMuon/Run2016D-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [276315, 276811]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  SingleMuon_2016E_UL16:
+    db: das:/SingleMuon/Run2016E-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [276831, 277420]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  SingleMuon_2016F_UL16:
+    db: das:/SingleMuon/Run2016F-HIPM_UL2016_MiniAODv2_NanoAODv9-v2/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [277772, 278808]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  SingleMuon_2016F_UL16_ext:
+    db: das:/SingleMuon/Run2016F-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [277772, 278808]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  SingleMuon_2016G_UL16:
+    db: das:/SingleMuon/Run2016G-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [278820, 280385]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  SingleMuon_2016H_UL16:
+    db: das:/SingleMuon/Run2016H-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD
+    split: 20
+    era: '2016'
+    type: data
+    group: data
+    run_range: [280919, 284044]
+    certified_lumi_file: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
+  HH_bbmumu:
+    cross-section: 0.00000782
+    #error_on_xs: 8.225e-05
+    #db: das:/HIG-RunIISummer20UL18wmLHEGEN_HH_bbmumu_13TeV-powheg_500k/bdanzi-NANOAOD-00000000000000000000000000000000/USER instance=prod/phys03
+    db: das:/GluGluHHToBBMuMuCHH1_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    type: signal
+    generated-events: genEventSumw
+    split: 10
+    line-width: 2
+    line-color: "#ff0000"
+  ### DY ###
+  DYJetsToLL_M-10to50_TuneCP5_13TeV-madgraphMLM-pythia8:
+    cross-section: 18610.0
+    db: das:/DYJetsToLL_M-10to50_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: DY
+    split: 30
+  DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8:
+    cross-section: 6225.4
+    db: das:/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: DY
+    split: 50
+  DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8_ext1:
+    cross-section: 6225.4
+    db: das:/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9_ext1-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: DY
+    split: 50
+  DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8: #Qui
+    cross-section: 4757.0
+    db: das:/DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: DY
+    split: 30
+  DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    cross-section: 859.589402
+    db: das:/DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: DY
+    split: 30
+  DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    cross-section: 361.4
+    db: das:/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: DY
+    split: 30
+  ### ttbar
+  TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 86.61
+    db: das:/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: ttbar
+    split: 500
+  TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 365.52
+    db: das:/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: ttbar
+    split: 100
+  TTToHadronic_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 377.85
+    db: das:/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: ttbar
+    split: 100
+  ## SingleTop (No tWll_5f)
+  SingleT_atW:
+    cross-section: 35.85
+    db: das:/ST_tW_top_5f_NoFullyHadronicDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SingleT
+    split: 5
+  ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 35.85
+    db: das:/ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SingleT
+    split: 20
+  ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 35.85
+    db: das:/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SingleT
+    split: 20
+  ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8:
+    cross-section: 80.95
+    db: das:/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SingleT
+    split: 80
+  ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8:
+    cross-section: 136.02
+    db: das:/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SingleT
+    split: 100
+  ST_s-channel_4f_leptonDecays:
+    cross-section: 3.40
+    db: das:/ST_s-channel_4f_leptonDecays_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SingleT
+    split: 30
+  ST_s-channel_4f_hadronicDecays:
+    cross-section: 35.85
+    db: das:/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SingleT
+    split: 30
+  ST_tWll_5f_TuneCP5_13TeV-madgraph-pythia8:
+    cross-section: 0.01096
+    db: das:/ST_tWll_5f_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SingleT
+    split: 20
+  ### Single Higgs (no GluGluHToWWToLNuQQ, GluGLuHToWWTo2L2Nu,VBFHToWWToLNuQQ,VHToNonbb,HZJ_HToWW,WminusH_HToBB_WToLNu,WplusH_HToBB_WToLNu)
+  GluGluHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 3.0469
+    db: das:/GluGluHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    split: 10
+  GluGluHToZZTo4L_M125_13TeV_powheg2_JHUgenV6_pythia8_ext9:
+    cross-section: 0.01212
+    db: das:/GluGluHToZZTo4L_M125_TuneCP5_13TeV_powheg2_minloHJJ_JHUGenV7011_pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    split: 200
+  GluGluHToGG_M125_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    cross-section: 0.11028
+    db: das:/GluGluHToGG_M125_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    split: 3
+  GluGluHToZZTo2L2Q_M125_TuneCP5_13TeV_powheg2_JHUGenV7011_pythia8:
+    cross-section: 0.16963
+    db: das:/GluGluHToZZTo2L2Q_M125_TuneCP5_13TeV_powheg2_JHUGenV7011_pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    split: 3
+  GluGluHToBB_M-125_TuneCP5_13TeV-amcatnloFXFX-pythia8: # minor change
+    cross-section:  28.293
+    db: das:/GluGluHToBB_Pt-200ToInf_M-125_TuneCP5_MINLO_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    split: 10
+  GluGluHToMuMu_M125_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 0.010571
+    db: das:/GluGluHToMuMu_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    split: 3
+  VBFHToMuMu_M125_CP5_13TeV-powheg-pythia8:
+    cross-section: 0.0008228
+    db: das:/VBFHToMuMu_M125_TuneCP5_withDipoleRecoil_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    split: 10
+  VBF_HToZZTo4L_M125_TuneCP5_13TeV_powheg2_JHUGenV7011_pythia8:
+    cross-section: 0.0010099
+    db: das:/VBF_HToZZTo4L_M125_TuneCP5_13TeV_powheg2_JHUGenV7011_pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    group: SM
+    split: 3
+  VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 0.2372
+    db: das:/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    group: SM
+    split: 3
+  VBFHToBB_M-125_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 2.2026
+    db: das:/VBFHToBB_M-125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    group: SM
+    split: 3
+  VBFHToGG_M125_TuneCP5_13TeV-amcatnlo-pythia8:
+    cross-section: 0.0085851
+    db: das:/VBFHToGG_M125_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    group: SM
+    split: 3
+  VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8:
+    cross-section: 0.085894
+    db: das:/VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    group: SM
+    split: 3
+  THQ:
+    cross-section: 0.07096
+    db: das:/THQ_ctcvcp_4f_Hincl_TuneCP5_13TeV_madgraph_pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    group: SM
+    split: 80
+  THW:
+    cross-section: 0.01561
+    db: das:/THW_ctcvcp_5f_Hincl_TuneCP5_13TeV_madgraph_pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    group: SM
+    split: 30
+  WplusHToMuMu_M125_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 0.0001858
+    db: das:/WplusHToMuMu_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    split: 10
+  WminusHToMuMu_M125_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 0.0001164
+    db: das:/WminusHToMuMu_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    split: 10
+  ttHToMuMu_M125_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 0.0001103
+    db: das:/ttHToMuMu_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    split: 10
+  ttHJetToNonbb:
+    cross-section: 0.2118
+    db: das:/ttHJetToNonbb_M125_TuneCP5_13TeV_amcatnloFXFX_madspin_pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    group: SM
+    split: 20
+  ttHJetTobb:
+    cross-section: 0.2953
+    db: das:/ttHJetTobb_M125_TuneCP5_13TeV_amcatnloFXFX_madspin_pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    group: SM
+    split: 10
+  ZHToMuMu_M125_CP5_13TeV-powheg-pythia8:
+    cross-section: 0.0001923
+    db: das:/ZHToMuMu_M125_CP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    split: 10
+  ZHToTauTau_M125_CP5_13TeV-powheg-pythia8:
+    cross-section: 0.07762
+    db: das:/ZHToTauTau_M125_CP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: SM
+    line-color: '#fe8f40'
+    line-type: 1
+    split: 10
+  ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8:
+    cross-section: 0.05198
+    db: das:/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    group: SM
+    split: 10
+## ggContZZ
+  GluGluToContinToZZTo2e2mu_13TeV:
+    cross-section: 0.00319
+    db: das:/GluGluToContinToZZTo2e2mu_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: GluGluToContinToZZ
+    split: 10
+  GluGluToContinToZZTo2e2tau_13TeV:
+    cross-section: 0.00319
+    db: das:/GluGluToContinToZZTo2e2tau_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: GluGluToContinToZZ
+    split: 10
+  GluGluToContinToZZTo2mu2tau_13TeV:
+    cross-section: 0.00319
+    db: das:/GluGluToContinToZZTo2mu2tau_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: GluGluToContinToZZ
+    split: 4
+  GluGluToContinToZZTo2mu2nu_13TeV:
+    cross-section: 0.00162
+    db: das:/GluGluToContinToZZTo2mu2nu_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: GluGluToContinToZZ
+    split: 4
+  GluGluToContinToZZTo4e_13TeV:
+    cross-section: 0.00159
+    db: das:/GluGluToContinToZZTo4e_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: GluGluToContinToZZ
+    split: 4
+  GluGluToContinToZZTo4mu_13TeV:
+    cross-section: 0.00159
+    db: das:/GluGluToContinToZZTo4mu_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: GluGluToContinToZZ
+    split: 4
+  GluGluToContinToZZTo4tau_13TeV:
+    cross-section: 0.00159
+    db: das:/GluGluToContinToZZTo4tau_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: GluGluToContinToZZ
+    split: 4
+  #TTJets
+  TTJets:
+    cross-section: 831.76
+    db: das:/TTJets_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: TTJets
+    split: 60
+  TTTJ_TuneCP5_13TeV-amcatnlo-pythia8:
+    cross-section: 0.000039
+    db: das:/TTTJ_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: TTJets
+    split: 10
+  # TTVX (no TTZToLL_M-1to10)
+  TTWJetslnu:
+    cross-section: 0.2043
+    db: das:/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: ttVX
+    split: 20
+  TTZJets2l2nu:
+    cross-section: 0.2529
+    db: das:/TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: ttVX
+    split: 30
+  TTTW_TuneCP5_13TeV-amcatnlo-pythia8:
+    cross-section: 0.00073
+    db: das:/TTTW_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: ttVX
+    split: 10
+  TTWW_TuneCP5_13TeV-amcatnlo-pythia8:
+    cross-section: 0.0070
+    db: das:/TTWW_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: ttVX
+    split: 5
+  TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8:
+    cross-section: 0.5868
+    db: das:/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: ttVX
+    split: 20
+  TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8:
+    cross-section: 0.4049
+    db: das:/TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: ttVX
+    split: 5
+  TTWH_TuneCP5_13TeV-madgraph-pythia8:
+    cross-section: 0.001582
+    db: das:/TTWH_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: ttVX
+    split: 5
+  TTZH_TuneCP5_13TeV-madgraph-pythia8:
+    cross-section: 0.001535
+    db: das:/TTZH_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: ttVX
+    split: 5
+  # Rares (no WpWpJJ,TTGJets)
+  WGToLNuG:
+    cross-section: 192.3
+    db: das:/WGToLNuG_01J_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: Rares
+    split: 30
+  TTTT_TuneCP5_13TeV-amcatnlo-pythia8:
+    cross-section: 0.0091
+    db: das:/TTTT_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: Rares
+    split: 10
+  tZq_ll_4f_ckm_NLO_TuneCP5_13TeV-amcatnlo-pythia8:
+    cross-section: 0.0758
+    db: das:/tZq_ll_4f_ckm_NLO_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: Rares
+    split: 80
+  TGJets_leptonDecays_TuneCP5_13TeV-amcatnlo-pythia8:
+    cross-section: 1.018
+    db: das:/TGJets_leptonDecays_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: Rares
+    split: 10
+  #WJets (no WJetsToLNu_HT_*,W3JetsToLNL, W4JetsToLN)
+  WJetsToLNu_0J:
+    cross-section: 53330.0
+    db: das:/WJetsToLNu_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: WJets
+    split: 60
+  WJetsToLNu_1J:
+    cross-section: 8875.0
+    db: das:/WJetsToLNu_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: WJets
+    split: 30
+  WJetsToLNu_2J:
+    cross-section: 3338.0
+    db: das:/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: WJets
+    split: 30
+#Triboson
+  WWW:
+    cross-section: 0.2086
+    db: das:/WWW_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VVV
+    split: 10
+  WWW_ext1:
+    cross-section: 0.2086
+    db: das:/WWW_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9_ext1-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VVV
+    split: 10
+  WWZJetsTo4L2Nu:
+    cross-section: 0.1651
+    db: das:/WWZJetsTo4L2Nu_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VVV
+    split: 10
+  WWZ:
+    cross-section: 0.1651
+    db: das:/WWZ_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VVV
+    split: 10
+  WWZ_ext1:
+    cross-section: 0.1651
+    db: das:/WWZ_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9_ext1-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VVV
+    split: 10
+  WZZ:
+    cross-section: 0.05565
+    db: das:/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VVV
+    split: 4
+  WZZ_ext1:
+    cross-section: 0.05565
+    db: das:/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9_ext1-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VVV
+    split: 4
+  ZZZ:
+    cross-section: 0.01398
+    db: das:/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VVV
+    split: 4
+  ZZZ_ext1:
+    cross-section: 0.01398
+    db: das:/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9_ext1-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VVV
+    split: 4
+  ZGToLLG:
+    cross-section: 54.48
+    db: das:/ZGToLLG_01J_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VVV
+    split: 10
+#Diboson (No ZZTo2L2Q, no WWTo2L2Nu_DoubleScattering, no WZTo2L2Q, no WWToLNuQQ, WZG)
+  ZZTo4L_13TeV_powheg_pythia8:
+    cross-section: 1.256
+    db: das:/ZZTo4L_TuneCP5_13TeV_powheg_pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VV
+    split: 200
+  WZ3LNu:
+    cross-section: 4.42965
+    db: das:/WZTo3LNu_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VV
+    split: 10
+  WW2L2Nu:
+    cross-section: 12.168
+    db: das:/WWTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v2/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VV
+    split: 5
+  ZZ2l2nu:
+    cross-section: 0.564
+    db: das:/ZZTo2L2Nu_TuneCP5_13TeV_powheg_pythia8/RunIISummer20UL16NanoAODv9-106X_mc2016_realistic_v9-v1/NANOAODSIM
+    era: '2016'
+    generated-events: genEventSumw
+    type: mc
+    group: VV
+    split: 4
+plotIt:
+  configuration:
+    width: 800
+    height: 600
+    luminosity-label: '%1$.2f fb^{-1} (13 TeV)'
+    experiment: CMS
+    extra-label: Work in progress
+    luminosity-error: 0.027
+    show-overflow: true
+    error-fill-style: 3154
+    error-fill-color: "#ee556270"
+    ratio-fit-error-fill-style: 1001
+    ratio-fit-error-fill-color: "#aa556270"
+    ratio-fit-line-color: "#0B486B"
+  legend:
+    position: [0.7, 0.6, 0.91, 0.91]
+    columns: 1
+  groups:
+    data:
+      legend: Data
+    signal:
+      legend: Signal
+    DY:
+      legend: DY
+      fill-color: "#EDC951"
+    VVV:
+      legend: VVV
+      fill-color: "#51edc9"
+    VV:
+      legend: VV
+      fill-color: "#5197ed"
+    Rares:
+      legend: Rares
+      fill-color: "#7F00FF"
+    SingleT:
+      legend: SingleT
+      fill-color: "#51ed6b"
+    TTJets:
+      legend: TTJets
+      fill-color: "#8ded51"
+    ttVX:
+      legend: ttVX
+      fill-color: "#5eb329"
+    ttbar:
+      legend: ttbar
+      fill-color: "#FFC0CB"
+    GluGluToContinToZZ:
+      legend: GluGluToContinToZZ
+      fill-color: "#ede551"
+    WJets:
+      legend: WJets
+      fill-color: "#ed6351"
+    SM:
+      legend: SM Higgs
+      fill-color: "#964B00"
+  plotdefaults:
+    no-data: False
+    normalized: True
+    y-axis: Events
+    log-y: both
+    y-axis-show-zero: True
+    save-extensions: [png]
+    show-ratio: True
+    sort-by-yields: True
+   
