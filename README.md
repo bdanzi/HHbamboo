@@ -2,7 +2,7 @@
 [![Run test](https://github.com/bdanzi/HHbbmumu/actions/workflows/python_test.yml/badge.svg)](https://github.com/bdanzi/HHbbmumu/actions/workflows/python_test.yml)
 ![](https://img.shields.io/badge/CMS-Run2-blue)
 
-# HH->bbmumu Run-2/3 analysis
+# HH(bbmumu) Run-2/3 analysis
 ---- Work In Progress ----
 
 This repository uses the **bamboo analysis framework**, you can install it via the instructions here: https://bamboo-hep.readthedocs.io/en/latest/install.html#fresh-install
