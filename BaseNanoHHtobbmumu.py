@@ -21,7 +21,7 @@ from itertools import chain
 from functools import partial
 import sys
 sys.path.append('/eos/user/b/bdanzi/bamboodev_LCG102/bamboodev/bamboo/examples/HZA_CMSDASLPC23')
-from scalefactorsbbmm import ScaleFactorsbbmm
+#from scalefactorsbbmm import ScaleFactorsbbmm
 import os
 
 from bamboo.root import loadDependency 
