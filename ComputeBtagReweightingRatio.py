@@ -1,3 +1,10 @@
+###------------------------------------------------------------------------------------###
+###  This code needs envConfig cern.ini                                                ###
+###  It creates btag weight ratios to apply in the analysis                            ###
+###  Author: Brunella D'Anzi                                                           ###
+###  Date: 20/08/2023                                                                  ###
+###------------------------------------------------------------------------------------###
+
 import os
 import sys
 import yaml
