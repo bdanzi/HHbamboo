@@ -1,3 +1,10 @@
+###------------------------------------------------------------------------------------###
+###  This code needs envConfig cern.ini                                                ###
+###  It forces merging of bath outputs without using --distributed=finalize            ###
+###  Author: Brunella D'Anzi                                                           ###
+###  Date: 20/08/2023                                                                  ###
+###------------------------------------------------------------------------------------###
+
 import os
 import argparse
 import yaml
